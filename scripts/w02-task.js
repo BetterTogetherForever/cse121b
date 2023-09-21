@@ -18,21 +18,15 @@ imageElement.alt = "Profile Picture";
 
 
 /* Step 4 - Adding Content */
-nameElement.innerHTML ='<strong>${fullName}</strong>';
+nameElement.innerHTML ='<strong>' + fullName + '</strong>';
 yearElement.textContent = currentYear; 
 imageElement.setAttribute('scr',profilePicture);
 imageElement.setAttribute('alt','${profileImage}');
 
-
-
-
-
 /* Step 5 - Array */
-let favoritefood = ["Japanese Food", "Salad", "Cake", "Juice"];
+const favoritefood = ["Japanese Food", "Salad", "Cake", "Juice"];
 let singleFavoriteFood = "Cheese";
 favoritefood.push(singleFavoriteFood);
-foodElement.innerHTML += `<br>${favoriteFood}`;
-
-
+foodElement.textContent = "123";
 
 
